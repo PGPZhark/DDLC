@@ -1,0 +1,277 @@
+/* Fonts */
+@font-face
+{
+    font-family: Monika;
+    src: url(font/m1.TTF);
+}
+@font-face
+{
+    font-family: Natsuki;
+    src: url(font/n1.TTF);
+}
+@font-face
+{
+    font-family: Aller;
+    src: url(font/Aller_Rg.TTF);
+}
+@font-face
+{
+    font-family: BankPrinter;
+    src: url(font/F25_Bank_Printer.TTF);
+}
+@font-face
+{
+    font-family: Halogen;
+    src: url(font/Halogen.TTF);
+}
+@font-face
+{
+    font-family: Sayori;
+    src: url(font/s1.TTF);
+}
+@font-face
+{
+    font-family: Yuri;
+    src: url(font/y1.TTF);
+}
+@font-face
+{
+    font-family: Yuri2;
+    src: url(font/y2.TTF);
+}
+
+/* Natsuki */
+body.n
+{
+    background-color: rgb(251, 204, 209);
+}
+
+h1.n
+{
+    text-align: left;
+    font-size: 55px;
+    color:rgb(248, 24, 148);
+    
+}
+h1.n a
+{
+    display: block;
+    text-decoration: none;
+    color:rgb(248, 24, 148);
+    padding: 10px 5px;
+    font-size: 70px;
+}
+
+h2.n
+{
+    text-align: left;
+    font-size: 50px;
+    color: rgb(248, 24, 148);
+}
+h3.n
+{
+    font-size: 40px;
+    font-family: Natsuki;
+}
+p.n
+{
+    font-family: Natsuki;
+    font-size: 20px;
+}
+
+
+/* Home */
+body.h
+{
+    background-color: rgb(255, 200, 217);
+    
+}
+h1.h
+{
+    font-size: 45px;
+    text-align: center;
+    font-family: Aller;
+}
+h2.h
+{
+    font-size: 40px;
+    
+}
+h3.h
+{
+    font-size: 20px;
+    float: right;
+    padding-right: 250px;
+}
+
+nav 
+{
+    width: 100%;
+    height: 100px;
+    
+}
+
+nav ul li
+{
+    font-size: 70px;
+    line-height: 55px;
+    float: left;
+}
+
+nav ul
+{
+    display: table;
+    margin: 0 auto;
+}
+
+nav ul li 
+{
+    float:left;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a 
+{
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: BankPrinter;
+    color: deeppink;
+    padding: 18px 36px;
+}
+
+nav ul li a:hover
+{
+    color: white;
+}
+
+
+/* Monika */
+body.m
+{
+    background-color:rgb(251, 204, 209);
+}
+
+h1.m
+{
+    text-align: left;
+    font-size: 55px;
+    
+}
+h1.m a
+{
+    display: block;
+    text-decoration: none;
+    color: rgb(10, 171, 35);
+    padding: 10px 5px;
+    font-size: 70px;
+}
+
+h2.m
+{
+    text-align: left;
+    font-size: 50px;
+    color: rgb(10, 171, 35);
+}
+h3.m
+{
+    font-size: 40px;
+    font-family: Monika;
+}
+
+p.m
+{
+    font-size: 30px;
+    font-family: Monika;
+}
+
+
+/* Sayori */
+body.s
+{
+    background-color:rgb(251, 204, 209);
+}
+
+h1.s
+{
+    text-align: left;
+    font-size: 55px;
+    
+}
+h1.s a
+{
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 181, 231);
+    padding: 10px 5px;
+    font-size: 70px;
+}
+
+h2.s
+{
+    text-align: left;
+    font-size: 50px;
+    color: rgb(0, 181, 231);
+}
+h3.s
+{
+    font-size: 40px;
+    font-family: Sayori;
+}
+
+p.s
+{
+    font-size: 40px;
+    font-family: Sayori;
+}
+
+/* Yuri */
+body.y
+{
+    background-color:rgb(251, 204, 209);
+}
+
+h1.y
+{
+    text-align: left;
+    font-size: 55px;
+    
+}
+h1.y a
+{
+    display: block;
+    text-decoration: none;
+    color: rgb(134, 44, 158);
+    padding: 10px 5px;
+    font-size: 70px;
+}
+
+h2.y
+{
+    text-align: left;
+    font-size: 50px;
+    color: rgb(134, 44, 158);
+}
+h3.y
+{
+    font-size: 50px;
+    font-family: Yuri;
+}
+
+p.y
+{
+    font-size: 40px;
+    font-family: Yuri;
+}
+h3.y2
+{
+    font-size: 50px;
+    font-family: Yuri2;
+}
+
+p.y2
+{
+    font-size: 40px;
+    font-family: Yuri2;
+}
